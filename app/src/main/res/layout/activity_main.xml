@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="319dp"
+        android:layout_height="206dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="-8dp"
+        android:onClick="mainButton"
+        android:text="Roll Dice"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <TextView
+        android:id="@+id/diceRoll"
+        android:layout_width="189dp"
+        android:layout_height="239dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="293dp"
+        android:layout_marginEnd="-39dp"
+        android:layout_marginBottom="376dp"
+        android:text="6"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@android:dimen/app_icon_size"
+        tools:visibility="visible" />
+
+</RelativeLayout>
